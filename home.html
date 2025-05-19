@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="icon" type="image/x-icon" href="faviconimg1.jpg">
+    <style>
+ #img{
+     width: 300px;
+     height: 400px;
+     float:right;}
+*{
+  background-color:aliceblue;
+}
+.portfolio{
+  display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   position: fixed;
+   top: 10px; 
+   color: blueviolet;
+}
+#header{
+  margin: 200px 150px;
+  padding: 50px 50px;
+
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  list-style-type: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+  li a {
+    color:black;
+    padding:40px;         
+    text-decoration: none;
+  }
+  li a:hover {
+    color: blueviolet;
+  }
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-left: 50px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  
+}
+</style>
+</head>
+
+
+<body>
+    <!-- inside header i gave my home section and navigation links -->
+     
+    <header id="header">
+        <!-- nav links is used to navigating about me,my projects and contact me form -->
+         <h2 class="portfolio">Portfolio.</h2>
+        <nav>
+            <ul class="navlinks"> 
+                <li class="li"><a href="home.html">Home</a></li>
+                 <li class="li"><a href="about.html">About</a></li>
+                 <li class="li"><a href="projects.html">Projects</a></li>
+                 <li class="li"><a href="contact.html">Contact</a></li>
+                 <li class="li" id="resume"><a target="_top" href="vyshnavi-webdeveloper-resume">Resume</a></li>
+            </ul>
+        </nav>
+         <!-- in img void element i gave my image -->
+        <div id="img">
+            <img width="150px" src="vyshuimg.jpg" alt="my profile">
+        </div>
+        <div class="content">
+        <h1>Hi,I'm <span style="color: blueviolet;"> vyshnavi </span> </h1>
+        <h1>Web Developer</h1>
+        <p>I'm a passionate web developer,proficient in coding and maintaining websites to ensure functionality and responsiveness. I love building,engaging user-friendly websites and applications. I'm eager to collaborate with creative individuals and businesses to bring their ideas to life</p>
+        <span style="border:solid;border-radius: 5px; background-color:rgb(188, 178, 198); color:black;">
+            Hire me
+        </span> <br><br>
+        <a href="https://www.linkedin.com/in/vasamsetti-vyshnavi">Linkedin</a>
+         </div>
+
+    </header>
+
+<!-- in footer i gave some social links,my gmail and copyright -->
+    <footer id="footer">
+         <div>
+             <p> Gmail ID:vyshunaidu234@gmail.com</p>
+             <p> copyright &copy; 2025 vyshnavi,All rights reserved.</p>
+         </div>
+    </footer>
+    
+</body>
+</html>

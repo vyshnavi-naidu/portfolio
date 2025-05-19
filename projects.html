@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="icon" type="image/x-icon" href="faviconimg1.jpg">
+    <style>
+*{
+  background-color:aliceblue;
+}
+.portfolio{
+  display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   position: fixed;
+   top: 10px; 
+   color: blueviolet;
+}
+#projects{
+  margin: 0px 150px;
+  padding: 50px 50px;
+
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  list-style-type: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+  li a {
+    color:black;
+    padding:40px;         
+    text-decoration: none;
+  }
+  li a:hover {
+    color: blueviolet;
+  }
+ 
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-left: 50px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  
+}
+
+    </style>
+</head>
+<body>
+     <header id="projects">
+        <!-- nav links is used to navigating about me,my projects and contact me form -->
+         <h2 class="portfolio">Portfolio.</h2>
+        <nav>
+            <ul class="navlinks"> 
+                <li class="li"><a href="home.html">Home</a></li>
+                 <li class="li"><a href="about.html">About</a></li>
+                 <li class="li"><a href="projects.html">Projects</a></li>
+                 <li class="li"><a href="contact.html">Contact</a></li>
+                 <li class="li" id="resume"><a target="_top" href="vyshnavi-webdeveloper-resume">Resume</a></li>
+            </ul>
+        </nav>
+<!-- mentioned some of my projects in this section -->
+           <h1 style="text-align: center;color: blueviolet;"><u>Projects</u></h1>
+     <div class="project1">
+            <h2>Project1:</h2>
+            <h3>My Portfolio</h3>
+            <p>My portfolio is my first project.My main aim in this project is to representing me as <br>a web developer and i mentioned full information about my knowledge and skills.<br>By using Html and css i was developed this my portfolio project.</p>
+            <a href="portfoliohome.html" target="_top">view project1 </a>
+        </div>
+        <div class="project2">
+            <h2>Project2:</h2>
+            <h3>Time Table</h3>
+            <p>Time table is one of my project.In this project i have embedded the datails about<br> the subject and timings for the classes by using HTML. </p>
+            <a href="timetabletask.html" target="_top">view project2</a>
+        </div>
+    </header>
+        <footer id="footer">
+         <div>
+             <p> Gmail ID:vyshunaidu234@gmail.com</p>
+             <p> copyright &copy; 2025 vyshnavi,All rights reserved.</p>
+         </div>
+    </footer>
+</body>
+</html>
